@@ -1,0 +1,3 @@
+--CREATE DATABASE [library]
+-- USE [master]
+--DROP DATABASE [library]
