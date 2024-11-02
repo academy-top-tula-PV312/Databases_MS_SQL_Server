@@ -1,0 +1,2 @@
+CREATE DATABASE air_flights_db
+GO
