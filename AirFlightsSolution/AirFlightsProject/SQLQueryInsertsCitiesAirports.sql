@@ -24,8 +24,8 @@ USE air_flights_db
 --	(city_id, title)
 --	VALUES
 --	(
---		(SELECT id FROM cities WHERE title = 'Москва'),
---		'Внуково'
+--		dbo.GetCityId('Москва'),
+--		'Быково'
 --	)
 --GO
 

@@ -1,0 +1,65 @@
+--CREATE FUNCTION GetCityId
+--(
+--	@cityName NVARCHAR(50)
+--)
+--RETURNS INT
+--AS
+--BEGIN
+--	--DECLARE @id INT;
+--	--SELECT @id = id
+--	--	FROM cities
+--	--	WHERE title = @cityName
+--	--RETURN @id
+
+--	RETURN (SELECT id
+--		FROM cities
+--		WHERE title = @cityName)
+--END
+--GO
+
+--CREATE FUNCTION GetAirportRow
+--(
+--	@id INT
+--)
+--RETURNS TABLE
+--AS
+--RETURN SELECT *
+--			FROM airports
+--			WHERE id = @id
+--GO
+
+--CREATE FUNCTION GetAirportsCity
+--(
+--	@id INT
+--)
+--RETURNS TABLE
+--AS
+--RETURN SELECT *
+--			FROM airports
+--			WHERE city_id = @id
+--GO
+
+--DROP FUNCTION GetAirportsCity
+--GO
+
+--CREATE FUNCTION GetAirportsCity
+--(
+--	@id INT
+--)
+--RETURNS @table TABLE
+--(
+--	city NVARCHAR(50),
+--	airport NVARCHAR(50)
+--)
+--AS
+--BEGIN
+--	INSERT INTO @table
+--		SELECT c.title AS [city], a.title AS [airport]
+--				FROM airports AS a
+--				JOIN cities AS c
+--					ON a.city_id = c.id
+--				WHERE city_id = @id
+--	RETURN
+--END
+--GO
+

@@ -22,6 +22,12 @@
     </LogicalFolder>
     <LogicalFolder Name="Запросы" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="SQLQueryCastConvert.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryCastConvert.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQueryCreateDatabase.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
@@ -112,11 +118,23 @@
           <AssociatedConnUserName />
           <FullPath>SQLQueryCreateTableTickets.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQueryDateTimeFuncs.sql">
+        <FileNode Name="SQLQueryFuncsDateTime.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQueryDateTimeFuncs.sql</FullPath>
+          <FullPath>SQLQueryFuncsDateTime.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQueryFuncsNumbers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryFuncsNumbers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQueryFuncsString.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryFuncsString.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQueryInsertsCitiesAirports.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
@@ -130,17 +148,41 @@
           <AssociatedConnUserName />
           <FullPath>SQLQueryJoins.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQueryNumbersFuncs.sql">
+        <FileNode Name="SQLQueryProgsFunctions.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQueryNumbersFuncs.sql</FullPath>
+          <FullPath>SQLQueryProgsFunctions.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQueryStringFuncs.sql">
+        <FileNode Name="SQLQueryProgsIfElse.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQueryStringFuncs.sql</FullPath>
+          <FullPath>SQLQueryProgsIfElse.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQueryProgsProcedures.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryProgsProcedures.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQueryProgsTryCatch.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryProgsTryCatch.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQueryProgsVariables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryProgsVariables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQueryProgsWhile.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryProgsWhile.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
