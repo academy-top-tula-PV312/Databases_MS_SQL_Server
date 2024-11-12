@@ -58,6 +58,12 @@
           <AssociatedConnUserName />
           <FullPath>SQLQueryCreateTableAirportsAirlenes.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQueryCreateTableAirportsLog.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryCreateTableAirportsLog.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQueryCreateTableCities.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
@@ -118,6 +124,12 @@
           <AssociatedConnUserName />
           <FullPath>SQLQueryCreateTableTickets.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQueryCreateTriggerAirports.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryCreateTriggerAirports.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQueryFuncsDateTime.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
@@ -148,6 +160,12 @@
           <AssociatedConnUserName />
           <FullPath>SQLQueryJoins.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQueryModifyAirports.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryModifyAirports.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQueryProgsFunctions.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
@@ -165,6 +183,12 @@
           <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQueryProgsProcedures.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQueryProgsTransaction.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryProgsTransaction.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQueryProgsTryCatch.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
