@@ -22,7 +22,9 @@ CREATE TABLE models
 	CONSTRAINT FK_models_makers
 		FOREIGN KEY (maker_id)
 		REFERENCES makers(id)
-		ON DELETE CASCADE
+		ON DELETE CASCADE,
+	CONSTRAINT UQ_models_maker_title
+		UNIQUE (maker_id, title)
 )
 
 GO

@@ -19,7 +19,13 @@ USE air_flights_db
 --	FROM airports AS a
 --	LEFT OUTER JOIN cities AS c
 --		ON a.city_id = c.id
---	WHERE a.activity = 1
+----	WHERE a.activity = 1
+
+--SELECT a.title AS [airport], 
+--	   c.title AS [city]
+--	FROM airports AS a
+--	RIGHT OUTER JOIN cities AS c
+--		ON a.city_id = c.id
 
 --SELECT a.title AS [airport], 
 --	   c.title AS [city]

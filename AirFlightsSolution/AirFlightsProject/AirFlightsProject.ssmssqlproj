@@ -3,8 +3,8 @@
   <Items>
     <LogicalFolder Name="Соединения" Type="2" Sorted="true">
       <Items>
-        <ConnectionNode Name="3-0:IT-STEP\AdminAd">
-          <Created>2024-11-13T18:48:24.4793131+03:00</Created>
+        <ConnectionNode Name="3-0:IT-STEP\adminad">
+          <Created>2024-11-18T18:42:18.1953354+03:00</Created>
           <Type>SQL</Type>
           <Server>3-0</Server>
           <UserName />
@@ -28,21 +28,27 @@
           <AssociatedConnUserName />
           <FullPath>SQLQueryCastConvert.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQueryCreateDatabase.sql">
+        <FileNode Name="SQLQueryCreateCursor.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryCreateCursor.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQueryCreateDatabase.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQueryCreateDatabase.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQueryCreateTableAirlenes.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQueryCreateTableAirlenes.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQueryCreateTableAirplanes.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQueryCreateTableAirplanes.sql</FullPath>
         </FileNode>
@@ -53,8 +59,8 @@
           <FullPath>SQLQueryCreateTableAirports.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQueryCreateTableAirportsAirlenes.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQueryCreateTableAirportsAirlenes.sql</FullPath>
         </FileNode>
@@ -65,32 +71,32 @@
           <FullPath>SQLQueryCreateTableCities.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQueryCreateTableDocTypes.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQueryCreateTableDocTypes.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQueryCreateTableFlights.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQueryCreateTableFlights.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQueryCreateTableFlightsSalons.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQueryCreateTableFlightsSalons.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQueryCreateTableMakers.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQueryCreateTableMakers.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQueryCreateTableModels.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQueryCreateTableModels.sql</FullPath>
         </FileNode>
@@ -101,14 +107,14 @@
           <FullPath>SQLQueryCreateTablePassengers.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQueryCreateTablePassTypes.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQueryCreateTablePassTypes.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQueryCreateTableSalonClasses.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQueryCreateTableSalonClasses.sql</FullPath>
         </FileNode>
@@ -117,6 +123,12 @@
           <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQueryCreateTableTickets.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQueryCreateView.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryCreateView.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQueryFuncsDateTime.sql">
           <AssociatedConnectionMoniker />
@@ -137,20 +149,20 @@
           <FullPath>SQLQueryFuncsString.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQueryInsertAirlines.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQueryInsertAirlines.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQueryInsertAirplanes.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQueryInsertAirplanes.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQueryInsertAirportAirline.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQueryInsertAirportAirline.sql</FullPath>
         </FileNode>
@@ -173,38 +185,62 @@
           <FullPath>SQLQueryInsertCitiesAirports.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQueryInsertDocTypes.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQueryInsertDocTypes.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQueryInsertMakers.sql">
+        <FileNode Name="SQLQueryInsertFlights.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryInsertFlights.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQueryInsertFlightsSalons.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryInsertFlightsSalons.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQueryInsertMakers.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQueryInsertMakers.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQueryInsertModels.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQueryInsertModels.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQueryInsertPassTypes.sql">
+        <FileNode Name="SQLQueryInsertPassengers.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryInsertPassengers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQueryInsertPassTypes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQueryInsertPassTypes.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQueryInsertSalonClasses.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>SQLQueryInsertSalonClasses.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQueryInsertTickets.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQueryInsertTickets.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQueryJoins.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQueryJoins.sql</FullPath>
         </FileNode>
@@ -244,17 +280,29 @@
           <AssociatedConnUserName />
           <FullPath>SQLQueryProgsWhile.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuerySelectAirplanes-01.sql">
+        <FileNode Name="SQLQuerySelectAgregate.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuerySelectAirplanes-01.sql</FullPath>
+          <FullPath>SQLQuerySelectAgregate.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuerySelectAirportsAirlines.sql">
+        <FileNode Name="SQLQuerySelectAirplains.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuerySelectAirportsAirlines.sql</FullPath>
+          <FullPath>SQLQuerySelectAirplains.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuerySelectOffsetNext.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuerySelectOffsetNext.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuerySelectWith.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:3-0:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>3-0</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuerySelectWith.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

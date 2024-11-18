@@ -21,6 +21,7 @@ CREATE TABLE airlines
 	CONSTRAINT FK_airlines_cities
 		FOREIGN KEY (city_id)
 		REFERENCES cities(id)
-		ON DELETE SET NULL
+		ON DELETE SET NULL,
+	CONSTRAINT UQ_airlines_city_title UNIQUE (city_id, title)
 )
 GO
